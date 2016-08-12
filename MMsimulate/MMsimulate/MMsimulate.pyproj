@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="mm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MMsimulate.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="warship.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
